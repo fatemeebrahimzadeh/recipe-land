@@ -1,0 +1,31 @@
+{
+  "name": "recipe-land",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatemeebrahmzadeh/recipe-land.git"
+  },
+  "keywords": [
+    "Mountain@69"
+  ],
+  "author": "fateme ebrahimzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatemeebrahmzadeh/recipe-land/issues"
+  },
+  "homepage": "https://github.com/fatemeebrahmzadeh/recipe-land#readme",
+  "devDependencies": {
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain recipe-land.surge.sh"
+    }
+  }
+}
