@@ -1,3 +1,3 @@
 # recipe-land
 
-recipe-land.surge.sh
+http://recipe-land.surge.sh/
