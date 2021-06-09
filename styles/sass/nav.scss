@@ -46,6 +46,7 @@ a:hover {
   }
 }
 .nav__input {
+  z-index: 1;
   position: relative;
   top: -200px;
   display: inline-grid;
@@ -53,6 +54,7 @@ a:hover {
   padding: 24.5px 26.8px 30.7px 26px;
   border-radius: 39px;
   box-shadow: 0 1px 30px 0 rgba(90, 184, 134, 0.25);
+  background-color: #fff;
   height: 170px;
   p {
     font-size: 16px;
