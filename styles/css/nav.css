@@ -1,0 +1,203 @@
+a,
+a:hover {
+  text-decoration: none;
+  color: #2e2e41;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.nav__row img {
+  height: 33.2px;
+}
+.nav__row ul li {
+  list-style-type: none;
+  size: 15px;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+
+.nav--section {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.nav__title {
+  display: inline-block;
+  width: 30%;
+  height: 96px;
+  font-family: "Poppins", sans-serif;
+  color: #2e2e41;
+}
+.nav__title h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-top: 100px;
+}
+.nav__title h2 {
+  font-size: 15px;
+  line-height: 1.33;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.nav__input {
+  position: relative;
+  top: -200px;
+  display: inline-grid;
+  grid-template-rows: 65% 35%;
+  padding: 24.5px 26.8px 30.7px 26px;
+  border-radius: 39px;
+  box-shadow: 0 1px 30px 0 rgba(90, 184, 134, 0.25);
+  height: 170px;
+}
+.nav__input p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav__input button {
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  width: 90%;
+  padding: 5px;
+  border: hidden;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+}
+
+.nav--section2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#div1 {
+  width: 40%;
+}
+#div1 button {
+  border-radius: 20px;
+  background-color: #5ab886;
+  width: 100%;
+}
+
+#div2 {
+  width: 30%;
+  margin-left: 25px;
+}
+#div2 button {
+  border-radius: 20px;
+  background-color: #bb61be;
+  width: 100%;
+}
+
+#nav__menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav__signing {
+  display: flex;
+  width: 20%;
+}
+#nav__signing * {
+  margin: 5px !important;
+}
+
+#pot {
+  display: inline-block;
+  width: 40%;
+}
+
+#nav__underline {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  top: -250px;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav__title h1 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav__title h1 {
+    font-size: 20px;
+  }
+
+  .nav__input p {
+    font-size: 14px;
+  }
+  .nav__input button {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  #nav__signing {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav__title h1 {
+    margin-top: 50px;
+  }
+  .nav__title h1 {
+    font-size: 26px;
+  }
+
+  .nav__input {
+    top: 50px;
+  }
+
+  .nav--section2 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav__row {
+    display: block;
+  }
+
+  #nav__menu {
+    width: 100%;
+  }
+
+  #nav__signing {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav__title h1 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav__title h1 {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav__title h1 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .nav__input p {
+    font-size: 12px;
+  }
+  .nav__input button {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=nav.css.map */
