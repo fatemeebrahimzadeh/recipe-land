@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:none;stroke:#2e2e41;stroke-linecap:round;stroke-miterlimit:10}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_100" transform="translate(-1206.536 -633.317)">
+        <path id="Rectangle_38" fill="none" d="M0 0H24V24H0z" opacity="0.1" transform="translate(1206.536 633.317)"/>
+        <g id="Group_99">
+            <g id="Group_98">
+                <path id="Path_95" d="M1225.807 651.279c1.582 0 2.545-1.461 1.638-2.522a6.105 6.105 0 0 0-8.818 0c-.907 1.061.056 2.522 1.638 2.522z" class="cls-2"/>
+                <circle id="Ellipse_147" cx="2.151" cy="2.151" r="2.151" class="cls-2" transform="translate(1220.885 641.061)"/>
+            </g>
+            <path id="Path_96" d="M1219.972 652.573c2.246 0 3.614-2.075 2.326-3.582a8.671 8.671 0 0 0-12.524 0c-1.288 1.507.08 3.582 2.326 3.582z" class="cls-3"/>
+            <circle id="Ellipse_148" cx="3.055" cy="3.055" r="3.055" class="cls-3" transform="translate(1212.981 638.061)"/>
+        </g>
+    </g>
+</svg>

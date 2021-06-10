@@ -1,3 +1,7 @@
+ul li {
+  list-style-type: none;
+}
+
 a,
 a:hover {
   text-decoration: none;
@@ -13,7 +17,6 @@ a:hover {
   height: 33.2px;
 }
 .nav__row ul li {
-  list-style-type: none;
   size: 15px;
   line-height: 20px;
   font-family: "Poppins", sans-serif;
@@ -82,6 +85,14 @@ a:hover {
   width: 50%;
 }
 
+.nav__underline {
+  overflow: hidden;
+  position: relative;
+  top: -250px;
+  display: flex;
+  justify-content: center;
+}
+
 #div1 {
   width: 40%;
 }
@@ -118,13 +129,6 @@ a:hover {
 #pot {
   display: inline-block;
   width: 40%;
-}
-
-#nav__underline {
-  max-width: 100%;
-  width: 100%;
-  position: relative;
-  top: -250px;
 }
 
 @media screen and (max-width: 1300px) {
