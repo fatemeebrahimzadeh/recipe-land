@@ -168,4 +168,10 @@
   .gallery__images div img {
     width: 100%;
   }
+}
+@media screen and (max-width: 400px) {
+  .body__menubar {
+    width: 60%;
+    height: 500px;
+  }
 }/*# sourceMappingURL=body.css.map */

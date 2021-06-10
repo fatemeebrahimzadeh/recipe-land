@@ -206,4 +206,18 @@ a:hover {
   .nav__input button {
     font-size: 10px;
   }
+}
+@media screen and (max-width: 400px) {
+  .nav--section {
+    display: block;
+  }
+
+  .nav__title {
+    text-align: center;
+    width: 100%;
+  }
+
+  #pot {
+    width: 100%;
+  }
 }/*# sourceMappingURL=nav.css.map */
