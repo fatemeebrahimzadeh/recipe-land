@@ -46,7 +46,7 @@
 .body__gallery {
   padding: 10px 20px;
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 9% 2% 89%;
 }
 
 .gallery__list {
@@ -94,7 +94,7 @@
   margin: 5%;
 }
 
-#icon--wrapper {
+.icon--wrapper {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border: solid 1px #dfdfdf;
   background-color: #ffffff;
@@ -104,8 +104,21 @@
   text-align: center;
 }
 
-#icon--wrapper:hover {
+.icon--wrapper:hover {
   background-color: #5ab886;
+}
+
+#sort--up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+}
+
+#gallery__hr {
+  opacity: 0.09;
 }
 
 @media screen and (max-width: 1200px) {
@@ -160,6 +173,10 @@
   }
   .gallery__list li {
     width: 100%;
+  }
+  .gallery__list .icon--wrapper {
+    width: 20px;
+    height: 20px;
   }
 
   .gallery__images div {
