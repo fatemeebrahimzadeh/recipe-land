@@ -2,4 +2,4 @@
 
 http://recipe-land.surge.sh/
 
-this site is not designed in mobile dimensions yet so isn't responsive.
+This repository contains the source code for a website that has not yet been optimized for mobile devices and is therefore not currently responsive.
